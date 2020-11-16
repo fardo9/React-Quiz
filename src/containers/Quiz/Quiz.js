@@ -107,6 +107,10 @@ class Quiz extends Component {
     })
   }
 
+  componentDidMount() {
+    console.log('Quiz iD=' , this.props.match.params.id)
+  }
+
   render() {
     console.log(this.state)
     return (
