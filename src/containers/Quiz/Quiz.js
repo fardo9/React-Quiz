@@ -3,6 +3,7 @@ import classes from './Quiz.css'
 import ActiveQuiz from '../../components/ActiveQuiz/ActiveQuiz'
 import FinishQuiz from "../../components/FinishedQuiz/FinishedQuiz";
 // import AnswersList from "../../components/ActiveQuiz/AnswersList/AnswersList";
+import axios from 'axios'
 
 
 class Quiz extends Component {
@@ -107,8 +108,8 @@ class Quiz extends Component {
     })
   }
 
-  componentDidMount() {
-    console.log('Quiz iD=' , this.props.match.params.id)
+ async componentDidMount() {
+    console.log('Yea, Quiz iDs=' , this.props.match.params.id)
   }
 
   render() {
