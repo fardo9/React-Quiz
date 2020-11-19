@@ -3,7 +3,6 @@ import classes from './ActiveQuiz.css'
 import AnswersList from "./AnswersList/AnswersList";
 
 const ActiveQuiz = props => {
-    // console.log('Active props', props)
     return (
         <div className={classes.ActiveQuiz}>
             <p className={classes.Question}>
@@ -19,7 +18,6 @@ const ActiveQuiz = props => {
                 state={props.state}
                 answers={props.answer}
                 onAnswerClick={props.onAnswerClick}
-
             />
         </div>
     )

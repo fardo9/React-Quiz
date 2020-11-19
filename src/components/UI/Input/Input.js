@@ -16,10 +16,6 @@ const Input = props => {
         cls.push(classes.invalid)
     }
 
-    // if(true){
-    //     cls.push(classes.invalid)
-    // }
-
     return(
         <div className={cls.join(' ')}>
             <label htmlFor="">{props.label}</label>
