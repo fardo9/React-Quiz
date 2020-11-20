@@ -1,4 +1,4 @@
-.MenuToggle{
+.MenuToggle {
     position: fixed;
     top: 40px;
     left: 40px;
@@ -8,10 +8,11 @@
     transition: opacity, left .22s ease-in;
     z-index: 100;
 }
-.MenuToggle:hover{
+
+.MenuToggle:hover {
     opacity: .7;
 }
 
-.MenuToggle.open{
+.MenuToggle.open {
     left: 320px;
 }
